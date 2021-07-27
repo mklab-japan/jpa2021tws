@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## 日本心理学会第85回大会TWS「はじめてのオンライン心理学実験・調査：jsPsychとlab.jsを用いた作成」サポートサイト
 
-You can use the [editor on GitHub](https://github.com/mklab-japan/jpa2021tws/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+日本心理学会第85回大会TWS「はじめてのオンライン心理学実験・調査：jsPsychとlab.jsを用いた作成」のサポートサイトです。このサイトにTWSに関する情報をまとめていく予定です。TWS開催までにプログラムのソースファイル，参考資料，TWS後のサポート情報などを掲載します。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 開催日時（オンラインLIVE配信）
 
-### Markdown
+2021年9月8日　15:20〜
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+日本心理学会第85回大会参加者のみが参加可能です。接続先の情報は大会事務局から提供されます。
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### 資料
 
-- Bulleted
-- List
+#### lab.js
 
-1. Numbered
-2. List
+#### jsPsych
 
-**Bold** and _Italic_ and `Code` text
+### サポート
 
-[Link](url) and ![Image](src)
-```
+TWS開催前後のサポートとして，Slackチャンネルを設けました。質問などがある方は以下のURLを介してSlackチャンネルに登録し，ご質問ください（お名前とご所属を明らかにした上でご質問お願いします）。できるだけ，参考サイトをご参照いただいた上でご質問いただければ幸いです。
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+slackURL 
+
+#### 参考サイト
+
+ * [lab.jsチュートリアル](https://labjs.yucis.net/)
+ * 
+
+### 企画者・講演者（順不同）
+ * lab.js担当
+   * 小林正法（山形大学）　https://mklab.info/
+   * 大杉尚之（山形大学）
+   * 紀ノ定保礼（静岡理工科大学）
+ * jsPsych担当
+   *　国里愛彦（専修大学）
+   *　西山慧（京都大学）
+   *　遠山朝子（専修大学）
 
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mklab-japan/jpa2021tws/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
