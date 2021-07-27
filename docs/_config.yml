@@ -3,3 +3,5 @@ scss: |
   .text-uppercase{
     text-transform: none !important; 
   }
+readme_index:
+  with_frontmatter: true
