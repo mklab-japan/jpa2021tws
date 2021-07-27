@@ -11,8 +11,8 @@
 
 ### ○資料
 
- * [lab.jsコース](./labjs/)
- * [jsPsychコース](./jsPsych/)
+ * [lab.jsコース](./labjs/README.md)
+ * [jsPsychコース](./jsPsych/README.md)
 
 ### ○サポート
 
