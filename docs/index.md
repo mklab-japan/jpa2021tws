@@ -2,20 +2,19 @@
 
 日本心理学会第85回大会TWS「はじめてのオンライン心理学実験・調査：jsPsychとlab.jsを用いた作成」のサポートサイトです。このサイトにTWSに関する情報をまとめていく予定です。TWS開催までにプログラムのソースファイル，参考資料，TWS後のサポート情報などを掲載します。
 
-### 開催日時（オンラインLIVE配信）
+### ○開催日時（オンラインLIVE配信）
 
 2021年9月8日　15:20〜
 
 日本心理学会第85回大会参加者のみが参加可能です。接続先の情報は大会事務局から提供されます。
 
 
-### 資料
+### ○資料
 
-#### lab.js
+ * [lab.js資料](./labjs/)
+ * [jsPsych資料](./jsPsych/)
 
-#### jsPsych
-
-### サポート
+### ○サポート
 
 TWS開催前後のサポートとして，Slackチャンネルを設けました。質問などがある方は以下のURLを介してSlackチャンネルに登録し，ご質問ください（お名前とご所属を明らかにした上でご質問お願いします）。できるだけ，参考サイトをご参照いただいた上でご質問いただければ幸いです。
 
@@ -24,18 +23,13 @@ slackURL
 #### 参考サイト
 
  * [lab.jsチュートリアル](https://labjs.yucis.net/)
- * 
 
-### 企画者・講演者（順不同）
+### ○企画者・講演者（順不同）
  * lab.js担当
-   * 小林正法（山形大学）　https://mklab.info/
+   * 小林正法（山形大学）　[https://mklab.info/](https://mklab.info/)
    * 大杉尚之（山形大学）
    * 紀ノ定保礼（静岡理工科大学）
  * jsPsych担当
-   *　国里愛彦（専修大学）
-   *　西山慧（京都大学）
-   *　遠山朝子（専修大学）
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mklab-japan/jpa2021tws/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+   * 国里愛彦（専修大学）
+   * 西山慧（京都大学）
+   * 遠山朝子（専修大学）
