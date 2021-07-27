@@ -11,8 +11,8 @@
 
 ### ○資料
 
- * [lab.js資料](./labjs/)
- * [jsPsych資料](./jsPsych/)
+ * [lab.jsコース](./labjs/)
+ * [jsPsychコース](./jsPsych/)
 
 ### ○サポート
 

@@ -1,1 +1,1 @@
-# jsPsych用サポートページ
+# jsPsychコース
