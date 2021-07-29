@@ -13,17 +13,9 @@ Canvas screenで行った文字の表示はHTML screenでも行うことがで�
 HTML ScreenはHTMLで画面構成するためのコンポーネントです。HTMLベースの画面構成用コンポーネントはいくつかありますが，HTML Screenは素のHTMLを自分で記述して画面構成します。HTML Pageというテキストボックスなどの質問項目の作成に適したパーツが事前に用意されたものも便利です（ただし，レイアウトの柔軟な変更はしにくい）。
 
 
-では，文字を表示するHTMLコードを記述します。「Content」に以下のようなHTMLのコードを記述してください。
+では，文字を表示するHTMLコードを記述します。HTML Screenの「Content」として空のテキストエリアが表示されている部分に以下のようなHTMLのコードを記述してください。できれば，コピー＆ペーストではなく，実際にキーボード入力してみてください。
 
 ```html
-<!-- メインの部分を<main></main>の間に記述する。
-なお，ここでは書いていないが<header></header>でヘッダー，
-<footer></footer>でフッターも記述できる。 -->
-
-<!-- lab.jsにデフォルトで用意されている水平方向の中央寄せ（content-horizontal-center）と
-垂直方向の中央寄せ（content-vertical-center）をclassで指定すると，
-<main></main>内で記述した部分が水平垂直方向に中央寄せになる。 -->
-
 <main class = "content-horizontal-center content-vertical-center">
   <div>
     <p>
@@ -66,7 +58,7 @@ classをうまく利用することでレイアウトや見た目を簡単に制
 
 サイドバーの「設定」→「CSS」で自分で新たにclassを定義することも可能です。
 
-`<div></div>`はグループ化するためのタグ`<p></p>`は段落タグになります。詳しくはHTMLに関する資料をご参照ください。
+`<div></div>`はグループ化するためのタグ`<p></p>`は段落タグになります。詳しくはHTMLに関する書籍などをご参照ください。
 
 
 ## 見た目の変更
@@ -75,6 +67,7 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 例えば，以下のように小さい文字サイズから大きなサイズまで変更が可能です。
 
  * 小さい字
+
 ```html
 <main class = "content-horizontal-center content-vertical-center">
   <div>
@@ -87,6 +80,7 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 ```
 
  * 中くらいの字
+
 ```html
 <main class = "content-horizontal-center content-vertical-center">
   <div>
@@ -99,6 +93,7 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 ```
 
  * 大きな字
+
 ```html
 <main class = "content-horizontal-center content-vertical-center">
   <div>
@@ -113,6 +108,7 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 色を変えたい場合は以下のように変更が可能です。
 
  * 色名で指定
+
 ```html
 <main class = "content-horizontal-center content-vertical-center">
   <div>
@@ -125,6 +121,7 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 ```
 
  * RGBで指定
+
 ```html
 <main class = "content-horizontal-center content-vertical-center">
   <div>
