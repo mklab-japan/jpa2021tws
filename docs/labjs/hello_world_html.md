@@ -8,7 +8,7 @@ Canvas screenで行った文字の表示はHTML screenでも行うことがで�
 ## 文字の表示
 サイドバーの「＋」から「HTML Screen」を追加してください。デフォルトではこのコンポーネントは表示されないため，以下の画像のようにメニュー下部のHTMLをクリックし，メニューを展開して選択してください。
 
-<img src='./image/fig4.png' width='100%'>
+<img src='./image/fig4.png' width='50%'>
 
 HTML ScreenはHTMLで画面構成するためのコンポーネントです。HTMLベースの画面構成用コンポーネントはいくつかありますが，HTML Screenは素のHTMLを自分で記述して画面構成します。HTML Pageというテキストボックスなどの質問項目の作成に適したパーツが事前に用意されたものも便利です（ただし，レイアウトの柔軟な変更はしにくい）。
 
@@ -36,7 +36,7 @@ HTML ScreenはHTMLで画面構成するためのコンポーネントです。HT
 これで，以下のように，画面中央に「Hello, wolrd!」という文字が表示されます。必要に応じて，[Canvas Screenでの文字表示](./hello_world_canvas.md)を参考に呈示時間などを変更してみてください。
 
 
-<img src='./image/fig5.png' width='100%'>
+<img src='./image/fig5.png' width='50%'>
 
 
 ## HTML Screenでは何をやっているのか（省略可）
@@ -62,7 +62,7 @@ classをうまく利用することでレイアウトや見た目を簡単に制
 </main>
 ```
 
-<img src='./image/fig6.png' width='100%'>
+<img src='./image/fig6.png' width='50%'>
 
 サイドバーの「設定」→「CSS」で自分で新たにclassを定義することも可能です。
 
@@ -142,5 +142,4 @@ RGBで指定
 ここページで取り上げた内容をまとめたlab.jsのデモとソースファイルは以下の通りです。
 
  * [デモ](./demo/hello_wordl_html_demo/index.html)
-
  * [ソース](./data/hello_world_html_demo.json)
