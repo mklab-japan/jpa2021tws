@@ -39,8 +39,7 @@ HTML ScreenはHTMLで画面構成するためのコンポーネントです。HT
 <img src='./image/fig5.png' width='50%'>
 
 
-```note
-HTML Screenでは何をやっているのか（省略可）
+## HTML Screenでは何をやっているのか（省略可）
 上記のコードで画面中央に「Hello, wolrd!」と表示される中身はどうなっているのかを少し説明します（HTMLの知識がある方や背景に関心のあまりない方は読み飛ばしてください）。
 
 注意点として，lab.jsにはHTMLで画面を構成するためのレイアウトの指定や定義が既に行われているため，ここでの説明は一般的なHTMLでのページ構成とは少し異なる説明になります。
@@ -68,14 +67,14 @@ classをうまく利用することでレイアウトや見た目を簡単に制
 サイドバーの「設定」→「CSS」で自分で新たにclassを定義することも可能です。
 
 `<div></div>`はグループ化するためのタグ`<p></p>`は段落タグになります。詳しくはHTMLに関する資料をご参照ください。
-```
+
 
 ## 見た目の変更
 
 HTMLでは文字サイズや色を比較的簡単に変更することができます。
 例えば，以下のように小さい文字サイズから大きなサイズまで変更が可能です。
 
-小さい字
+ * 小さい字
 ```html
 <main class = "content-horizontal-center content-vertical-center">
   <div>
@@ -87,7 +86,7 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 </main>
 ```
 
-中くらいの字
+ * 中くらいの字
 ```html
 <main class = "content-horizontal-center content-vertical-center">
   <div>
@@ -99,7 +98,7 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 </main>
 ```
 
-大きな字
+ * 大きな字
 ```html
 <main class = "content-horizontal-center content-vertical-center">
   <div>
@@ -113,7 +112,7 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 
 色を変えたい場合は以下のように変更が可能です。
 
-色名で指定
+ * 色名で指定
 ```html
 <main class = "content-horizontal-center content-vertical-center">
   <div>
@@ -125,7 +124,7 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 </main>
 ```
 
-RGBで指定
+ * RGBで指定
 ```html
 <main class = "content-horizontal-center content-vertical-center">
   <div>
