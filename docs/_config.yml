@@ -4,11 +4,11 @@ scss: |
   .text-uppercase{
     text-transform: none !important; 
   }
-  .body{
-    font-family: 'Noto Serif JP', serif;
+  .markdown-body{
+    font-family: 'Noto Serif JP', serif; !important;
   }
   .h1 .h2 .h3 .h4 .h5{
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif; !important;
   }
 readme_index:
   with_frontmatter: true
