@@ -2,7 +2,7 @@
 sort: 2 #サイドバーの順番
 ---
 
-# 1. Flanker task
+# 2. Flanker task
 
 フランカー課題については [この記事](https://blog.goo.ne.jp/hidefujita/e/827f96e7918dc44ed957863519cdeaaf) に簡単な説明があります。
 
