@@ -8,11 +8,11 @@ sort: 2 #サイドバーの順番
 
 刺激として今回は `<<<<<`, `>>>>>`, `<<><<`, `>><>>` の４つを使用します。参加者は真ん中の記号が`<`なら`f`キー，`>`なら`j`キーを押すこととします。
 
-チュートリアルを通して，[このような課題](https://snishiyama.github.io/jspsych-tutorial-20210721-28/tutorial/20210721/goal/flanker.html)が完成します。
+チュートリアルを通して，[このような課題](https://mklab-japan.github.io/jpa2021tws/jspsych/goal/flanker.html)が完成します。
 
 ## 刺激を一つ提示する
 
-`tutorial/20210721/start/` に保存されている `flanker.html` というファイルをエディタで開いてください。
+`docs/jspsych/start/` に保存されている `flanker.html` というファイルをエディタで開いてください。
 右クリックでエディタアプリを指定して開くか，予め開いておいたエディタからファイルを選択することで開くことができます。
 VScode の場合はファイルをドラッグ＆ドロップすることで開くことも可能です。
 
@@ -75,7 +75,7 @@ javascript を書いているといろんなカッコ`{}`, `[]`, `()` を別々�
 - 同じ試行を複数回実施してみよう
 - 提示する刺激を変えてみよう
 
-サンプルコードは `tutorial/exercise/FL01_single_trial.html`
+サンプルコードは `docs/exercise/FL01_single_trial.html`
 
 ## 異なる刺激で複数試行実施する
 
@@ -109,7 +109,7 @@ jsPsych.init({
 - 4 試行にしてみよう
 - いろんな提示順序を試してみよう
 
-サンプルコードは `tutorial/exercise/FL02_four_trials.html`
+サンプルコードは `docs/exercise/FL02_four_trials.html`
 
 ## timeline_variables の導入
 
@@ -169,7 +169,7 @@ var trial = {
 
 - 2 つの刺激 `--<--`, `-->--` を新たに提示できるようにしよう
 
-サンプルコードは `tutorial/exercise/FL03_timeline_variables.html`
+サンプルコードは `docs/exercise/FL03_timeline_variables.html`
 
 ### 刺激のランダマイズ
 
@@ -216,4 +216,4 @@ var fixation = {
 
 _Hint!_ これまで作ってきたコードには，`timeline` の設定箇所が２つあります。
 
-サンプルコードは `tutorial/exercise/FL04_flanker.html`
+サンプルコードは `docs/exercise/FL04_flanker.html`
