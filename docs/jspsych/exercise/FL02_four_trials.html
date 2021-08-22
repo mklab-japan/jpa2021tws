@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../jspsych-6.3.1/jspsych.js"></script>
+    <script src="../jspsych-6.3.1/plugins/jspsych-html-keyboard-response.js"></script>
+    <link rel="stylesheet" href="../jspsych-6.3.1/css/jspsych.css" />
+  </head>
+  <body></body>
+  <script>
+    var trial1 = {
+      type: 'html-keyboard-response',
+      stimulus: '<<<<<',
+      choices: ['f', 'j'],
+      post_trial_gap: 500,
+    };
+
+    var trial2 = {
+      type: 'html-keyboard-response',
+      stimulus: '>>>>>',
+      choices: ['f', 'j'],
+      post_trial_gap: 500,
+    };
+
+    var trial3 = {
+      type: 'html-keyboard-response',
+      stimulus: '<<><<',
+      choices: ['f', 'j'],
+      post_trial_gap: 500,
+    };
+
+    var trial4 = {
+      type: 'html-keyboard-response',
+      stimulus: '>><>>',
+      choices: ['f', 'j'],
+      post_trial_gap: 500,
+    };
+
+    jsPsych.init({
+      timeline: [trial1, trial2, trial3, trial4],
+    });
+  </script>
+</html>

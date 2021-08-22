@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../jspsych-6.3.1/jspsych.js"></script>
+    <script src="../jspsych-6.3.1/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="../jspsych-6.3.1/plugins/jspsych-survey-likert.js"></script>
+    <link rel="stylesheet" href="../jspsych-6.3.1/css/jspsych.css" />
+  </head>
+  <body></body>
+  <script>
+    // 日本語版BIS/BAS尺度については次の文献を参照。高橋他 (2007). Grayの気質モデル. パーソナリティ研究, 15(3), 276–289. https://doi.org/10.2132/personality.15.276
+    var scale = ['あてはまらない', 'どちらかと言えばあてはまらない', 'どちらかと言えばあてはまる', 'あてはまる'];
+    var items = [
+      'たとえ何かよくないことが私の身に起ころうとしていても，怖くなったり神経質になったりすることはほとんどない',
+      '私は，欲しいものを手に入れるためには格別に努力する',
+      '何かがうまくいっているときは，それを続けることがとても楽しいと思う',
+      '面白そうだと思えば，私はいつも何か新しいものを試したいと考えている',
+      '私は，欲しいものを手に入れたとき，興奮し，活気づけられる',
+      '非難されたり怒られたりすると，私はかなり傷つく',
+      '欲しいものがあると，私はたいていそれを手に入れるために全力を挙げる',
+      '楽しいかもしれないから，というだけの理由で何かをすることがよくある',
+      '欲しいものを手に入れるチャンスを見つけると，すぐに動き出す',
+      '誰かが私のことを怒っていると考えたり，知ったりすると，私はかなり心配になったり動揺したりする',
+      '何か好きなことをするチャンスをみつけると，私はすぐに興奮する',
+      '私はしばしば時のはずみで行動する',
+      '何かよくないことが起ころうとしていると考えると，私はたいていくよくよ悩む',
+      'よいことが私の身に起こると，そのことは，私に強い影響を与える',
+      '何か重要なことをあまりうまくできなかったと考えると不安になる',
+      '私は，興奮や新しい刺激を切望している',
+      '私は，何かを追い求めているときには徹底的にやる',
+      '私は，友達と比べると不安の種はとても少ない',
+      '競争に勝ったら，私は興奮するだろう',
+      '私は，間違いを犯すことを心配している',
+    ];
+
+    var questions = [];
+    for (var i = 0; i < items.length; i++) {
+      questions.push({ prompt: items[i], name: `Q${i}`, labels: scale, required: true });
+    }
+
+    var inst_bis_bas = {
+      type: 'html-keyboard-response',
+      stimulus:
+        '次のページには，ふだんのあなたの様子について尋ねる文章が表示されます。それぞれについて，どの程度あてはまるかを<br>' +
+        '「あてはまらない」「どちらかと言えばあてはまらない」「どちらかと言えばあてはまる」「あてはまる」<br>' +
+        'の4つの選択肢から1つ選んで回答してください。' +
+        '<br><br>準備ができたらスペースキーを押して回答を開始してください。',
+      choices: [' '],
+    };
+
+    var bis_bas = {
+      type: 'survey-likert',
+      questions: questions,
+      randomize_question_order: true,
+      scale_width: 500,
+    };
+
+    jsPsych.init({
+      timeline: [inst_bis_bas, bis_bas],
+    });
+  </script>
+</html>

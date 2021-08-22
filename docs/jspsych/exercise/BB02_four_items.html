@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../jspsych-6.3.1/jspsych.js"></script>
+    <script src="../jspsych-6.3.1/plugins/jspsych-survey-likert.js"></script>
+    <link rel="stylesheet" href="../jspsych-6.3.1/css/jspsych.css" />
+  </head>
+  <body></body>
+  <script>
+    // 日本語版BIS/BAS尺度については次の文献を参照。高橋他 (2007). Grayの気質モデル. パーソナリティ研究, 15(3), 276–289. https://doi.org/10.2132/personality.15.276
+    var bis_bas = {
+      type: 'survey-likert',
+      questions: [
+        {
+          prompt: '競争に勝ったら，私は興奮するだろう',
+          labels: ['あてはまらない', 'どちらかと言えばあてはまらない', 'どちらかと言えばあてはまる', 'あてはまる'],
+          required: true,
+        },
+        {
+          prompt: '私は，興奮や新しい刺激を切望している',
+          labels: ['あてはまらない', 'どちらかと言えばあてはまらない', 'どちらかと言えばあてはまる', 'あてはまる'],
+          required: true,
+        },
+        {
+          prompt: '非難されたり怒られたりすると，私はかなり傷つく',
+          labels: ['あてはまらない', 'どちらかと言えばあてはまらない', 'どちらかと言えばあてはまる', 'あてはまる'],
+          required: true,
+        },
+        {
+          prompt: '私はしばしば時のはずみで行動する',
+          labels: ['あてはまらない', 'どちらかと言えばあてはまらない', 'どちらかと言えばあてはまる', 'あてはまる'],
+          required: true,
+        },
+      ],
+      scale_width: 500,
+    };
+
+    jsPsych.init({
+      timeline: [bis_bas],
+    });
+  </script>
+</html>
