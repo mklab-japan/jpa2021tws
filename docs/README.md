@@ -12,7 +12,7 @@
 ## 資料
 コースごとに資料をまとめてあります。サイドバーからもお選びいただけます。
 
- * [jsPsychコース](./jsPsych/README.md)
+ * [jsPsychコース](./jspsych/README.md)
  * [lab.jsコース](./labjs/README.md)
 
 ## サポート（準備中）
