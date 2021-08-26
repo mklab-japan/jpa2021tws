@@ -85,7 +85,7 @@ lab.jsではCanvasベースの画面構成とHTMLベースの画面構成とい�
 #### HTMLの特徴
 HTMLとは文章を構成するために用いられるマークアップ言語です（厳密は前述のCanvasもHTMLの一部なのですが，lab.js Builderのコンポーネントとしては別の扱いになっています）。lab.js BuilderではHTMLベースの画面構成用コンポーネントとして，HTML Screen, HTML Frame， HTML Page, HTML Formの4種類が用意されていますが，HTML ScreenとHTML Pageを使うことが多いでしょう。HTML Screenは画面をHTMLで記述して構成したい場合に用います。HTML Pageはテキスト入力や多肢選択といった調査に利用できる質問項目がある程度用意されており，調査を作成する際に利用するとよいでしょう。
 
-```tips
+```tip
 #### CanvasとHTMLの使い分けの目安
 
 Canvasは図形の描画用なので文字メインの場合はあまり向いていません（どちらかというと，文字も表示できますが，あえて使う必要はないというイメージでしょうか）。lab.js BuilderでCanvasを利用する場合，描画領域があまり広くないため，文字メインの場合，文字の表示位置や色を制御したい場合などはHTMLの方がよいでしょう。
