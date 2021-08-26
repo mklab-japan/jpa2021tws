@@ -12,5 +12,8 @@ scss: |
   .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6, .markdown-body dt {
     font-family: 'Noto Sans JP', sans-serif !important;
   }
+  div.labjs_page ul{
+    list-style-type: none;
+  }
 readme_index:
   with_frontmatter: true
