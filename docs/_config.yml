@@ -5,15 +5,12 @@ scss: |
     text-transform: none !important; 
   }
   .markdown-body{
-    font-family: 'Noto Serif JP', serif !important;
+    font-family: 'Noto Sans JP', serif !important;
     line-height:1.7;
     font-weight: 500;
   }
   .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6, .markdown-body dt {
     font-family: 'Noto Sans JP', sans-serif !important;
-  }
-  div.labjs_page ul{
-    list-style-type: none;
   }
 readme_index:
   with_frontmatter: true
