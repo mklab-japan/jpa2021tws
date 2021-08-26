@@ -1,3 +1,3 @@
 # lab.jsコース
 
-サイドバーから知りたい内容をお選びください。
+{% include list.liquid %}
