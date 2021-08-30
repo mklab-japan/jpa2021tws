@@ -49,6 +49,11 @@ TWS開催後の質問受け付けのため，Slackチャンネルを設けまし
 * [小林正法・大杉尚之 (2021). オンライン実験・調査への参加・作成を介した心理教育　映像情報メディア学会誌](https://www.ite.or.jp/content/journal/)
 * 小林正法 (印刷中). lab.js BuilderによるGUIベースのオンライン心理学実験の作成　基礎心理学研究（情報掲載のみ）
 
+## 実習のオンライン化・オープンデータ化
+実習のオンライン化・オープンデータ化に関心のある方は以下のフォームからメールアドレスをご登録ください。
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9Y3N-9a3cfe6hS0N2FJkN04K48uOyNQiwPnAm2_hm4qpbqw/viewform?embedded=true" width="640" height="536" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+
 ## 企画者・講演者（順不同）
  * 小林正法（山形大学）[HP](https://mklab.info/)
  * 国里愛彦（専修大学）[HP](https://kunisatolab.github.io/main/index.html)
