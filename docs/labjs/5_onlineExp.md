@@ -12,7 +12,7 @@ lab.jsを使ってオンライン実験を行う場合は，サーバーを用�
  * JATOS（導入は難しいが，多機能）
     *  参考：[オンライン実験（JATOS編）](https://www.notion.so/JATOS-bcd287f2250249aebd99b73ec39f02de)
  * Qualtricsなどと連携（難易度や費用は連携ツールに依存）
-    * 参考：[lab.js公式ドキュメントのQualtiricsとの連携方法の紹介]https://labjs.readthedocs.io/en/latest/learn/deploy/3a-qualtrics.html
+    * 参考：[lab.js公式ドキュメントのQualtiricsとの連携方法の紹介](https://labjs.readthedocs.io/en/latest/learn/deploy/3a-qualtrics.html)
 
 この中から，本TWSではOpen labについて紹介します。基本的には[オンライン実験（Open Lab編）](https://www.notion.so/Open-Lab-5aadb17cffef4e97ada432091fa86f37)と同じですが，[フランカー課題](./1_flanker.html)をオンライン実験にしてみます。
 
