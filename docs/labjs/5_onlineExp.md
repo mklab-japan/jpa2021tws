@@ -101,8 +101,7 @@ Open Labでは，lab.jsで作成した課題（TASK）を複数まとめたStudy
             * 他のツールとの連携用
         * Enter your colleagues' email addresses
             * 共同研究者のメールアドレスを登録すると，その人もこの実験にアクセス可能になる
-2. 入力後， 「Enter」を押してください。そうすると，以下のような「YOUR STUDIES」に先ほど作成した実験が表示されます。
-    * <img src='./image/2021-08-30-14-56-45.png' width='80%'>
+2. 入力後， 「Enter」を押してください。そうすると「YOUR STUDIES」に先ほど作成した実験が表示されます。
 3. 作成した実験の実験名（位置に注意）にカーソルを当てると，カーソルが変化するので，そこをクリックしてActivateします。うまくいくと画面上部に「実験名 is now active」と表示されます。少しわかりにくいので注意しましょう。
     * <img src='./image/2021-08-30-15-06-12.png' width='80%'>
 5. 続いて，activeにした実験に入れる課題を選びます。SELECT TASKSをクリックしてください。SELECT TASKをクリックすると，実験に追加できる課題が表示されます。自分で作成した課題を使うので，My tasksに表示されている「AVAILABLE TASK」から先ほどアップロードした課題（FLANKER_TASK）を追加してください。課題の＋ボタンをクリックすることで追加できます。
@@ -118,7 +117,7 @@ Open Labでは，lab.jsで作成した課題（TASK）を複数まとめたStudy
 
 ### 参加者を実験に招待
 
-　では，実験参加者を実験に招待してみましょう。招待は，STUDIESの中にある「INVITATIONS」から行うことができます。「INVITATIONS」をクリックすると以下のような画面が表示され，4つの方法で参加者を実験に招待することができます。好きな設定のリンクをコピーして実験参加者に伝えることで，オンライン実験に参加してもらえます。
+　では，実験参加者を実験に招待してみましょう。招待は，STUDIESの中にある「INVITATIONS」から行うことができます。「INVITATIONS」をクリックすると以下のような画面が表示され，5つの方法で参加者を実験に招待することができます。好きな設定のリンクをコピーして実験参加者に伝えることで，オンライン実験に参加してもらえます。
 
 <img src='./image/2021-08-30-15-22-46.png' width='80%'>     
 
@@ -140,13 +139,13 @@ Open Labでは，lab.jsで作成した課題（TASK）を複数まとめたStudy
 
 　気をつけるべき点として，参加者に実験開始画面で「ENTER」ボタンをクリックしてもらわないと実験が開始しません。課題の「実施前に参加者に表示するメッセージ」で「ENTER」ボタンを押すよう教示する必要があります。
 
-### 実験データ
+### Open labで実施したデータ
 
-　オンライン実験の実験データは，DATAに以下のように参加者ごとに格納されています。
+Open labで実施した場合，データは「DATA」に以下のように参加者ごとに格納されています。
 
 <img src='./image/2021-08-30-15-38-51.png' width='100%'>
 
-　データは以下の3つの方式から選んで保存できます。データはcsv形式となります。
+データは以下の3つの方式から選んでダウンロードできます。データはcsv形式になるので，ExcelやRなどで処理してください。もし，Excelで開いて文字化けする場合には，DOMに起因する問題が生じているため，一度，メモ帳などで開いた後に保存し，再度，Excelで開いてみてください。
 
  1. 全データをダウンロード（Download all data）
  2. 課題完了したデータのみダウンロード（Download data of completed tasks）
@@ -156,3 +155,14 @@ Open Labでは，lab.jsで作成した課題（TASK）を複数まとめたStudy
 Open labにアップロードしたオンライン実験は以下からお試しいただけます。
 
 [https://open-lab.online/invite/flanker_task_demo](https://open-lab.online/invite/flanker_task_demo/)
+
+
+```note
+#### オンライン調査・実験を実施する前に
+本TWSでは扱っていませんが，オンライン調査・実験を実施する際，（多くの場合は）倫理審査委員会からの許諾を受けておく必要があります。オンライン調査・実験に関する倫理基準については，以下のガイドラインなども参考になります。
+
+ * [Waterloo大学のクラウドソーシングを用いた研究のガイドライン](https://uwaterloo.ca/research/office-research-ethics/research-humanparticipants/pre-submission-and-training/use-crowdsourcing-services)
+ * [イギリス心理学会によるinternet-mediated researchの倫理ガ イドライン](https://www.bps.org.uk/news-and-policy/ethics-guidelines-internet-mediatedresearch-2017)
+ * アメリカの心理学者向けのガイドライン
+    * Barchard, K., & Williams, J. (2008). Practical advice for conducting ethical online experiments and questionnaires for United States psychologists. Behavior Research Methods, 40, 1111–1128. doi:10.3758/brm.40.4.1111 18 
+```
