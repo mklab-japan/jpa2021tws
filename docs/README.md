@@ -44,8 +44,8 @@ TWS開催後の質問受け付けのため，Slackチャンネルを設けまし
 
 ### lab.js
 *  [lab.jsチュートリアル](https://labjs.yucis.net/)
-* [大杉・小林（2020). GUI ベースの web 実験作成ツール(lab.js)の紹介と実践, PsyArxiv](https://psyarxiv.com/ym5sb/)
-* [小林 (2021). 再生テストに基づく記憶現象のオンライン実験による再現 心理学研究](https://www.jstage.jst.go.jp/article/jjpsy/advpub/0/advpub_92.20213/_article/-char/ja/)
+* [大杉尚之・小林正法（2020). GUI ベースの web 実験作成ツール(lab.js)の紹介と実践, PsyArxiv](https://psyarxiv.com/ym5sb/)
+* [小林正法 (2021). 再生テストに基づく記憶現象のオンライン実験による再現 心理学研究](https://www.jstage.jst.go.jp/article/jjpsy/advpub/0/advpub_92.20213/_article/-char/ja/)
 * [小林正法・大杉尚之 (2021). オンライン実験・調査への参加・作成を介した心理教育　映像情報メディア学会誌](https://www.ite.or.jp/content/journal/)
 * 小林正法 (印刷中). lab.js BuilderによるGUIベースのオンライン心理学実験の作成　基礎心理学研究（情報掲載のみ）
 
