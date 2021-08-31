@@ -58,6 +58,6 @@ TWS開催後の質問受け付けのため，Slackチャンネルを設けまし
  * 小林正法（山形大学）[HP](https://mklab.info/)
  * 国里愛彦（専修大学）[HP](https://kunisatolab.github.io/main/index.html)
  * 大杉尚之（山形大学）[HP](http://tosugi2010.sakura.ne.jp/index.html)
- * 西山慧（京都大学）
+ * 西山慧（日本学術振興会・京都大学）
  * 紀ノ定保礼（静岡理工科大学）[HP](https://sites.google.com/site/yasknsd/)
  * 遠山朝子（専修大学・日本学術振興会）
