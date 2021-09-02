@@ -44,8 +44,8 @@ TWS開催後の質問受け付けのため，Slackチャンネルを設けまし
 
 ### lab.js
 *  [lab.jsチュートリアル](https://labjs.yucis.net/)
-* [大杉・小林（2020). GUI ベースの web 実験作成ツール(lab.js)の紹介と実践, PsyArxiv](https://psyarxiv.com/ym5sb/)
-* [小林 (2021). 再生テストに基づく記憶現象のオンライン実験による再現 心理学研究](https://www.jstage.jst.go.jp/article/jjpsy/advpub/0/advpub_92.20213/_article/-char/ja/)
+* [大杉尚之・小林正法（2020). GUI ベースの web 実験作成ツール(lab.js)の紹介と実践, PsyArxiv](https://psyarxiv.com/ym5sb/)
+* [小林正法 (2021). 再生テストに基づく記憶現象のオンライン実験による再現 心理学研究](https://www.jstage.jst.go.jp/article/jjpsy/advpub/0/advpub_92.20213/_article/-char/ja/)
 * [小林正法・大杉尚之 (2021). オンライン実験・調査への参加・作成を介した心理教育　映像情報メディア学会誌](https://www.ite.or.jp/content/journal/)
 * 小林正法 (印刷中). lab.js BuilderによるGUIベースのオンライン心理学実験の作成　基礎心理学研究（情報掲載のみ）
 
@@ -58,6 +58,6 @@ TWS開催後の質問受け付けのため，Slackチャンネルを設けまし
  * 小林正法（山形大学）[HP](https://mklab.info/)
  * 国里愛彦（専修大学）[HP](https://kunisatolab.github.io/main/index.html)
  * 大杉尚之（山形大学）[HP](http://tosugi2010.sakura.ne.jp/index.html)
- * 西山慧（京都大学）
+ * 西山慧（日本学術振興会・京都大学）
  * 紀ノ定保礼（静岡理工科大学）[HP](https://sites.google.com/site/yasknsd/)
  * 遠山朝子（専修大学・日本学術振興会）
