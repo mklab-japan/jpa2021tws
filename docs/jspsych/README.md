@@ -31,6 +31,6 @@ Prettier は書いたスクリプトをきれいに整形してくれる便利�
 
 本チュートリアルおよび使用するスクリプトは本ページの左下の`main`と書かれたボタンを押してクリックして表示される`Download`というボタンから入手できます。
 
-![サンプルコードのダウンロード方法](../download-repository.png)
-
 フォルダを解答（展開）しておいてください（[Windows での zip ファイルの展開方法［ページ後半］](https://www.pc-koubou.jp/magazine/39336)）。
+
+![サンプルコードのダウンロード方法](../download-repository.png)
