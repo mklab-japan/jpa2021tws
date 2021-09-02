@@ -40,7 +40,7 @@ HTML ScreenはHTMLで画面構成するためのコンポーネントです。HT
 
 まず，どこからどこまでがメイン場面として画面レイアウトを構成するのかを定義します。`<main>`から始まり，`</main>`までの範囲がメイン画面であることを`<main></main>`のHTMLタグで記述します。`<`と`>`で囲まれた文字列はHTMLタグとして認識されるため，画面には表示されない点に注意してください。
 
-しかし，今回は`<main>`ではなく，`<main class = "content-horizontal-center content-vertical-center">`と記述してます。ここでは`<main>`から`</main>`で囲まれた領域のレイアウトとして`content-horizontal-center`と`content-vertical-center`というclassを指定しています。classとは特定のレイアウトや見た目を予め任意のclass名で定義しておくことで，class名を与えることで，事前に定義したレイアウトに当該要素を変化させるものです。例えば，ファッションで「オフィスカジュアル」と言えば，どのような見た目かがわかるというイメージでしょうか。lab.jsで用意されている`content-horizontal-center`というclassを指定した場合，その要素は水平方向に中央寄せで表示されます。今回は，`content-horizontal-center`と`content-vertical-center`の2つ指定することで，水平方向と垂直方向に中央寄せ（つまり，画面中央寄せ）を実現しています。他のも色々なclassが用意されていますが，詳しくは[こちら](https://labjs.readthedocs.io/en/latest/learn/css/style.html)をご確認ください。
+しかし，今回は`<main>`ではなく，`<main class = "content-horizontal-center content-vertical-center">`と記述してます。ここでは`<main>`から`</main>`で囲まれた領域のレイアウトとして`content-horizontal-center`と`content-vertical-center`というclassを指定しています。classとは特定のレイアウトや見た目を予め任意のclass名で定義しておくことで，class名を与えることで，事前に定義したレイアウトに当該要素を変化させるものです。例えば，ファッションで「オフィスカジュアル」と言えば，どのような見た目かがわかるというイメージでしょうか。lab.jsで用意されている`content-horizontal-center`というclassを指定した場合，その要素は水平方向に中央寄せで表示されます。今回は，`content-horizontal-center`と`content-vertical-center`の2つを指定することで，水平方向と垂直方向に中央寄せ（つまり，画面中央寄せ）を実現しています。他にも色々なclassが用意されていますが，詳しくは[こちら](https://labjs.readthedocs.io/en/latest/learn/css/style.html)をご確認ください。
 
 classをうまく利用することでレイアウトや見た目を簡単に制御することができます。例えば，以下のように書き替えると水平方向に右寄せ，垂直方向に中央寄せが実現できます。
 
@@ -133,11 +133,11 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 </main>
 ```
 
-このように，HTML ScreenはHTMLとCSSでレイアウトや見た目を制御します。レイアウトや見た目を制御したい場合はlab.jsjやJavaScriptではなく，HTMLやCSSについて調べると解決することが多いでしょう。
+このように，HTML ScreenはHTMLとCSSでレイアウトや見た目を制御します。レイアウトや見た目を制御したい場合はlab.jsやJavaScriptではなく，HTMLやCSSについて調べると解決することが多いでしょう。
 
 ## デモ＆ソース
 
-ここページで取り上げた内容をまとめたlab.jsのデモとソースファイルは以下の通りです。デモではこのページで紹介したコードを1秒ごとに表示しています。
+このページで取り上げた内容をまとめたlab.jsのデモとソースファイルは以下の通りです。デモではこのページで紹介したコードを1秒ごとに表示しています。
 
  * [デモ](./demo/hello_wordl_html_demo/index.html)
  * [ソース](./data/hello_world_html_demo.json)
