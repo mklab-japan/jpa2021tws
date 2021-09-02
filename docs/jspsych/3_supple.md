@@ -11,10 +11,10 @@ sort: 4 #サイドバーの順番
 - 作成したコードをサーバーにアップロードしオンラインに公開する方法
 - サーバーにデータを保存する方法
 
-実用的なオンライン実験を作り，実施するためには，この辺の話をしないといけないのですが，もう 1 コマあればな...という感じです。
+実用的なオンライン実験を作り，実施するためには，この辺の話をしないといけないのですが，もうあと 90 分あればな...という感じです。
 また，サーバー関連の話については，手軽に利用できるサーバーは基本的に有料なので，デモ用途で手軽に使えるものを用意できなかったというのも理由の一つです。
 
-上の 2 点については，`tutorial/goal` に保存されている `bis-bas.html` や `flanker.html` ，`exp/exp1_casual.html` を見ると，一応確認できるようにはしています。
+上の 2 点については，`tutorial/goal` に保存されている `bis-bas.html` や `flanker.html` ，`exp/exp1_casual.html` を見ると，一応確認できるようにはしています（`exp/exp1_casual.html`については，[本資料の改変元](https://github.com/snishiyama/jspsych-tutorial-20210721-28)を参照のこと）。
 
 今回は紹介しませんが，試してみてもらうといいと思ったのは，[cognition.run](https://www.cognition.run) というサービスです。
 私が使ってみた感想は，超便利！です（しかも無料）。
@@ -25,7 +25,7 @@ sort: 4 #サイドバーの順番
 少なくとも課題作成のちょっとした練習やオンライン実験の体験にはいいと思いました。
 
 他にも，google が提供する [Firebase](https://firebase.google.com) という基本無料のホスティングサービスがあります。
-Firebase を使う場合は [専修大学の国里先生が作成されたページ](https://kunisatolab.github.io/main/how-to-jspsych-firebase.html) が参考になると思います。
+Firebase を使う場合は [国里先生が作成されたページ](https://kunisatolab.github.io/main/how-to-jspsych-firebase.html) が参考になると思います。
 
 ## 実験作成ソフトウェアの紹介
 

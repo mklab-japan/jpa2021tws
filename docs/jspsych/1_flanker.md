@@ -2,7 +2,7 @@
 sort: 2 #サイドバーの順番
 ---
 
-# 2. Flanker task
+# Flanker task
 
 フランカー課題については [この記事](https://blog.goo.ne.jp/hidefujita/e/827f96e7918dc44ed957863519cdeaaf) に簡単な説明があります。
 
@@ -104,12 +104,15 @@ jsPsych.init({
 
 それぞれの試行について別々の変数名がついていることに注意してください。
 
+```note
 ### 演習
 
 - 4 試行にしてみよう
 - いろんな提示順序を試してみよう
 
+
 サンプルコードは `docs/exercise/FL02_four_trials.html`
+```
 
 ## timeline_variables の導入
 
@@ -165,11 +168,13 @@ var trial = {
 };
 ```
 
+```note
 ### 演習
 
 - 2 つの刺激 `--<--`, `-->--` を新たに提示できるようにしよう
 
 サンプルコードは `docs/exercise/FL03_timeline_variables.html`
+```
 
 ### 刺激のランダマイズ
 
@@ -209,11 +214,15 @@ var fixation = {
 また，設定項目は`type` によっても変わります（質問紙用の`survey-lickert`を見るとよくわかる）。
 詳しくは，jsPsych の公式サイトを参照してください。
 
+```tip
 ### 演習
 
 - 注視点を毎試行提示してみよう
 - 注視点を最初だけ提示してみよう
 
 _Hint!_ これまで作ってきたコードには，`timeline` の設定箇所が２つあります。
+```
 
+```note
 サンプルコードは `docs/exercise/FL04_flanker.html`
+```

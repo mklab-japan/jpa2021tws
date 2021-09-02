@@ -15,6 +15,10 @@
  * [jsPsychコース](./jspsych/README.md)
  * [lab.jsコース](./labjs/README.md)
 
+サンプルコードは本ページの左下の`main`と書かれたボタンを押してクリックして表示される`Download`というボタンから入手できます。
+
+![サンプルコードのダウンロード方法](download-repository.png)
+
 ## サポート用Slackチャンネル
 
 TWS開催後の質問受け付けのため，Slackチャンネルを設けました。質問などがある方は以下のURLを介してSlackチャンネルにご登録していただき，以下のルールを守った上でご質問ください。
