@@ -132,7 +132,7 @@ jsPsych で書いた実験のコードにバグがある場合，html ファイ�
 以下の画像は，サンプルコードで発生させてみたエラーです（黄色で表示されている caution は無視してください）。
 どういうエラーが発生しているかわかりますでしょうか？
 
-[Safari の javascript コンソール](fig/javascript-console.png)
+![Safari の javascript コンソール](fig/javascript-console.png)
 
 `No plugin loaded for trials of type "html-keyboard-response"`とありますので，どうやら`html-keyboard-response` をコードで使用しているのに，プラグインとして読み込むのを忘れているようです。
 html ファイルの先頭にプラグインを読み込むを追加すれば，このエラーは解決できそうです。
