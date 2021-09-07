@@ -54,6 +54,6 @@ jsPsych を用いて心理実験を作成する際には，スクリプトを書
 
 本チュートリアルおよび使用するスクリプトは本ページの左下の`main`と書かれたボタンを押してクリックして表示される`Download`というボタンから入手できます。
 
-フォルダを解答（展開）しておいてください（[Windows での zip ファイルの展開方法［ページ後半］](https://www.pc-koubou.jp/magazine/39336)）。
+フォルダを解凍（展開）しておいてください（[Windows での zip ファイルの展開方法［ページ後半］](https://www.pc-koubou.jp/magazine/39336)）。
 
 ![サンプルコードのダウンロード方法](../download-repository.png)
