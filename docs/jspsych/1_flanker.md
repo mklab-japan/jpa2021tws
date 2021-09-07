@@ -75,7 +75,7 @@ javascript を書いているといろんなカッコ`{}`, `[]`, `()` を別々�
 - 同じ試行を複数回実施してみよう
 - 提示する刺激を変えてみよう
 
-サンプルコードは `docs/exercise/FL01_single_trial.html`
+サンプルコードは `docs/jspsych/exercise/FL01_single_trial.html`
 
 ## 異なる刺激で複数試行実施する
 
@@ -109,7 +109,7 @@ jsPsych.init({
 - 4 試行にしてみよう
 - いろんな提示順序を試してみよう
 
-サンプルコードは `docs/exercise/FL02_four_trials.html`
+サンプルコードは `docs/jspsych/exercise/FL02_four_trials.html`
 
 ## timeline_variables の導入
 
@@ -169,7 +169,7 @@ var trial = {
 
 - 2 つの刺激 `--<--`, `-->--` を新たに提示できるようにしよう
 
-サンプルコードは `docs/exercise/FL03_timeline_variables.html`
+サンプルコードは `docs/jspsych/exercise/FL03_timeline_variables.html`
 
 ### 刺激のランダマイズ
 
@@ -216,7 +216,7 @@ var fixation = {
 
 _Hint!_ これまで作ってきたコードには，`timeline` の設定箇所が２つあります。
 
-サンプルコードは `docs/exercise/FL04_fixation.html`
+サンプルコードは `docs/jspsych/exercise/FL04_fixation.html`
 
 ## 文字サイズを変更する［時間があれば］
 
@@ -304,7 +304,8 @@ var trial = {
 ### 【演習５】
 
 - 注視点の文字サイズを変更してみよう
-  サンプルコードは `docs/exercise/FL05_font-size.html`
+
+サンプルコードは `docs/jspsych/exercise/FL05_font-size.html`
 
 ## 反応の正誤をデータに含める（任意のデータを保存する方法）［時間があれば］
 
@@ -379,31 +380,15 @@ var trial_flanker = {
 つまり，任意で追加するデータについてはデータ内の列名を自由に指定できます。
 ```
 
-条件も保存しておくなら，以下のようにすればよいでしょう。
+### 【演習６】
 
-```js
-var trial_flanker = {
-  type: 'html-keyboard-response',
-  stimulus: jsPsych.timelineVariable('stim'),
-  choices: ['f', 'j'],
-  on_finish: function (data) {
-    if (data.stimulus.includes('<<<<<') || data.stimulus.includes('>><>>') || data.stimulus.includes('--<--')) {
-      data.key = 'f';
-    } else {
-      data.key = 'j';
-    }
-    data.correct = Number(jsPsych.pluginAPI.compareKeys(data.response, data.key));
+- 提示される刺激に応じて，試行の条件がデータに保存されるようにしよう。
+  - 記号が同じ方向を向いていたら「一致」
+  - ターゲットとフランカーの方向が逆なら「不一致」
+  - フランカーが`-`なら「中性」
 
-    // 試行の条件の判定・保存
-    if (data.stimulus.includes('<<<<<') || data.stimulus.includes('>>>>>')) {
-      data.condition = '一致';
-    } else if (data.stimulus.includes('<<><<') || data.stimulus.includes('>><>>')) {
-      data.condition = '不一致';
-    } else {
-      data.condition = '中性';
-    }
-  },
-};
-```
+サンプルコードは `docs/jspsych/exercise/FL06_add-data.html`
 
+```note
 なお，`timelineVariable()`（と，`data`という設定項目）を活用すればよりスッキリとした書き方が可能です（`jspsych/goal/flanker.html` を参照してください）。
+```
