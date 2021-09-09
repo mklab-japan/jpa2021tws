@@ -3,7 +3,6 @@ sort: 3 #サイドバーの順番
 ---
 
 # 調査の作成
-小林正法
 
 ## lab.jsで調査を作成
 
@@ -191,3 +190,6 @@ lab.js Builderでは「HTML Page」というコンポーネントを利用する
 右クリックで保存してください。
 
 [survey_demo.json](./data/survey_demo.json)
+
+
+執筆者： 小林正法

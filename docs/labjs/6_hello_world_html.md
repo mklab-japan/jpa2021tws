@@ -3,7 +3,6 @@ sort: 6
 ---
 
 # 補足_HTML screenでの作成
-小林正法
 
 
 Canvas screenで行った文字の表示はHTML screenでも行うことができます。なお，基本的にはCanvas screenで作成した画面をHTML screenで作成する方法を紹介するので，呈示時間の制御などのCanvas screenと共通する内容は割愛します。
@@ -144,3 +143,6 @@ HTMLでは文字サイズや色を比較的簡単に変更することができ�
 
  * [デモ](./demo/hello_wordl_html_demo/index.html)
  * [ソース](./data/hello_world_html_demo.json)
+
+
+執筆者： 小林正法

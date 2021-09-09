@@ -80,3 +80,6 @@ var timeline = [inst_flanker, flanker_task];
 ## GitHub Pagesで公開したオンライン課題のデータの保存
 
  GitHub Pagesでは，データを保存できないので，実際にウェブ実験をする場合は，サーバーを借りたりする必要があります。ただ，GitHub PagesからデータをDropboxに保存させる方法もあります。若干リスクのある方法ですので，[Saving jsPsych data to your Dropbox folder](https://kywch.github.io/jsPsych-in-Qualtrics/save-dropbox/)を読んだ上で利用ください。
+
+
+ 執筆者： 国里愛彦

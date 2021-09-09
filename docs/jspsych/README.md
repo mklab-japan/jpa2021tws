@@ -34,3 +34,6 @@ Prettier は書いたスクリプトをきれいに整形してくれる便利�
 フォルダを解凍（展開）しておいてください（[Windows での zip ファイルの展開方法［ページ後半］](https://www.pc-koubou.jp/magazine/39336)）。
 
 ![サンプルコードのダウンロード方法](../download-repository.png)
+
+
+執筆者： 西山慧

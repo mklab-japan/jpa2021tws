@@ -401,3 +401,6 @@ var trial_flanker = {
 ```note
 なお，`timelineVariable()`（と，`data`という設定項目）を活用すればよりスッキリとした書き方が可能です（`jspsych/goal/flanker.html` を参照してください）。
 ```
+
+
+執筆者： 西山慧

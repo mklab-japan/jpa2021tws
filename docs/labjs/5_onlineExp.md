@@ -3,7 +3,6 @@ sort: 5 #サイドバーの順番
 ---
 
 # lab.jsでオンライン実験を行う方法
-小林正法
 
 
 lab.jsを使ってオンライン実験を行う場合は，サーバーを用意し，オンライン実験の実行とデータを保存するホスティングが必要になります。以下のようなやり方が可能です。それぞれのやり方を解説しているページがある場合は紹介しておきます。
@@ -169,3 +168,5 @@ Open labにアップロードしたオンライン実験は以下からお試し
  * アメリカの心理学者向けのガイドライン
     * Barchard, K., & Williams, J. (2008). Practical advice for conducting ethical online experiments and questionnaires for United States psychologists. Behavior Research Methods, 40, 1111–1128. doi:10.3758/brm.40.4.1111 18 
 ```
+
+執筆者： 小林正法
