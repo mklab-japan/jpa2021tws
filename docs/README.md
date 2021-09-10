@@ -8,6 +8,9 @@
 
 ＊終了しました。現在はTWSの動画を公開中です。サイドバーから各コースごとの動画をご視聴いただけます。
 
+ * [jsPsychコース動画](./jspsych/5_movie.html)
+ * [lab.jsコース動画(./labjs/7_movie.html)
+
 
 ## 資料
 
