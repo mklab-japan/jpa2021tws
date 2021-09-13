@@ -1,6 +1,7 @@
 ---
 sort: 1 #サイドバーの順番
 ---
-# 本TWS企画主旨・概要
+# 1. “スマホのブラウザ” で簡単に実験体験
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/mofPv1rET4Fqex" width="800" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/secret/mofPv1rET4Fqex" title="はじめてのオンライン心理学実験・調査" target="_blank">はじめてのオンライン心理学実験・調査</a> </strong> from <strong><a href="https://www.slideshare.net/mk1124" target="_blank">Masanori Kobayashi</a></strong> </div>
+### 概要
+スマホのブラウザで実験に参加する方法について説明します。実験の開始時には「同意書」の画面が表示されます。これは「実験参加者」の権利を守るために必要な最初のステップです。次は，「性別」と「年齢」の入力画面が表示されます。実験を行うために何に気をつける必要があるのでしょう？ぜひ一緒に体験しましょう。
