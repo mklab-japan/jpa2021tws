@@ -18,4 +18,4 @@ scss: |
   }
 readme_index:
   with_frontmatter: true
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
